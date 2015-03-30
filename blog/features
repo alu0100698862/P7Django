@@ -1,0 +1,20 @@
+Feature: Test
+	As someone new to testing
+	So I can learn behavior driven development
+	I want to write some scenarios
+ 
+	Scenario: I can view the test page
+		Given I am at "http://127.0.0.1:9000/quick-test/"
+		Then I should see "Hello testing world!"
+		
+	Scenario: I can view the test page
+		Given I am at "http://127.0.0.1:9000/blog1/"
+		Then I should see "Pagina home!"
+		
+	Scenario: I can view the test page
+		Given I am at "http://127.0.0.1:9000/blog2/"
+		Then I should see "Pagina help!"
+		
+	Scenario: I can view the test page
+		Given I am at "http://127.0.0.1:9000/blog3/"
+		Then I should see "Pagina about!"

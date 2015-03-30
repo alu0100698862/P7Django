@@ -1,0 +1,18 @@
+{% load staticfiles %} 
+{% load bootstrap3 %}
+
+	<head>
+		<title>Learning Lettuce!</title>
+		<link href="{% static "blog/css/style.css" %}" media="all" rel="stylesheet">
+		<link href = "{% static 'blog/css/bootstrap.min.css' %}" rel="stylesheet">
+	</head>
+	<body id='content'>
+	<h1> {% block content %}{% endblock %} </h1>	
+		<br>
+		<button type="button" class="btn btn-primary"> Accede! </button>
+	</body>
+</html>
+
+  
+		
+		
